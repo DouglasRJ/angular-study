@@ -1,0 +1,11 @@
+.sidebar {
+  background-color: #0060b1;
+  color: white;
+  width: 18%;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

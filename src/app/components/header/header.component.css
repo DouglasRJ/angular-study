@@ -1,0 +1,56 @@
+.navbar {
+  background-color: #0060b1;
+}
+
+.navbar > i {
+  fill: white;
+}
+
+.navbar-toggler {
+  border: 0;
+  color: white;
+}
+
+.login-or-signup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-or-signup > i {
+  font-size: 28px;
+}
+
+.login-or-signup-text {
+  font-size: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 55px;
+  gap: 2px;
+}
+
+.login-or-signup-text > a {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icon-accessibility {
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search {
+  width: 50%;
+  height: 40px;
+}

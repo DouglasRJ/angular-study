@@ -1,0 +1,36 @@
+<div
+  class="offcanvas offcanvas-start sidebar"
+  tabindex="-1"
+  id="offcanvasDarkNavbar"
+  aria-labelledby="offcanvasDarkNavbarLabel"
+>
+  <div class="offcanvas-header">
+    <div class="d-flex align-items-center w-100 justify-content-around">
+      <i class="bi bi-person-circle"></i>
+
+      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+        Olá. Acesse sua conta
+      </h5>
+    </div>
+
+    <button
+      type="button"
+      class="btn-close btn-close-white"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <li *ngFor="let item of sidebarItems" class="sidebar-item">
+        <i class="bi" [ngClass]="item.icon"></i>
+        <a
+          class="nav-link active"
+          aria-current="page"
+          [attr.href]="item.path"
+          >{{ item.label }}</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
