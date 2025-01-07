@@ -1,0 +1,21 @@
+.navigator {
+  background-color: #ff6500;
+  width: 100%;
+  color: white;
+  padding: 0px 55px;
+}
+
+.btn-departments {
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: #e35214;
+  border-radius: 0;
+  padding: 6px 25px;
+}
+
+.dropdown-menu a,
+.dropdown-menu button {
+  color: #565c69;
+  font-size: 14px;
+}
